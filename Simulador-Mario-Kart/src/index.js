@@ -57,7 +57,7 @@ async function corrida(player1, player2) {
         let blocoDePista = await pista();
 
         if (blocoDePista === "RETA") {
-            console. log("O bloco de pista da rodada é RETA\n");        
+            console.log("O bloco de pista da rodada é RETA\n");        
 
             valorTotal1 = resultadoDado1 + player1.VELOCIDADE;
             valorTotal2 = resultadoDado2 + player2.VELOCIDADE;
